@@ -1,0 +1,584 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: "Roboto";
+    margin: 0;
+}
+i{
+    color:white;
+}
+.flexclass{
+    display: flex;
+}
+
+/* slide area starts */
+.slide1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-image: url(../images/my24-dodge-bhp-hero-01-desktop.avif);
+    padding-bottom: 300px;
+    padding-top: 270px;
+    padding-left: 100px;
+    padding-right: 860px;
+    background-size: 1440px;
+    background-position-y: 100px;
+    background-position-x:40px;
+    background-repeat: no-repeat;   
+    margin-bottom: -120px;
+ 
+    
+}
+
+
+
+.slide-text{
+    background-color: rgba(0, 0, 0, 0.555);
+    padding-left: 110px;
+    padding-right: 90px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    align-items: center;
+    text-transform: uppercase;
+
+    img{
+        width: 251px;
+        height: 95px;
+        margin-left: 30px;
+    }
+  
+}
+.slide1-button{
+    text-transform: uppercase;
+    display: flex;
+    margin-left: 20px;
+
+    p{
+        margin: 10px;
+        background-color: red;
+        padding: 10px;
+        font-size: 16px;
+        font-family:fantasy;
+       
+    }  
+    i{
+        font-size: 24px;
+    }
+    p:hover{
+        background-color: rgba(255, 0, 0, 0.693);
+        transition: 1s;
+    }
+}
+
+/* car section slide */
+.car-sec{
+    display: flex;
+    div{
+        padding-left: 10px;
+        width: 100%;
+    }
+}
+.car-sec img{
+    width:315px;
+    height: 197px;
+}
+.slide2{
+    text-align: center;
+    font-family: sans-serif;
+    h1{
+        padding-bottom: 2em;
+    }
+}
+.slide2-text2{
+    font-size: 12px;
+    padding-bottom: 3em;
+    margin-top: 0;
+}
+.car-text{
+    margin: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.msrp{
+    margin: 0;
+    margin-top: 10px;
+    color:rgba(255, 255, 255, 0.736);
+    font-size: 8px;
+    text-transform: uppercase;
+}
+.car-price{
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 80px;
+}
+.text-bold{
+    font-weight: bold;
+}
+.slide2-text2{
+    font-size: 12px;
+   
+    a{
+        color: white;
+    }
+}
+
+/* slide3 */
+.slide3{
+    position: relative;
+    margin-bottom: 0;
+    img{
+        width:100%;
+        height:320px;
+    }
+}
+.slide3-text{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: -1px;
+    padding: 20px;
+    position: absolute;
+    top:10px;
+    left:100px;
+    background-color: rgba(0, 0, 0, 0.621);
+    padding-left: 60px;
+    padding-right: 60px;
+    
+    h1{
+        font-weight: 700;
+        text-align: center;
+        
+    }
+    p{
+        margin: 10px;
+        background-color: red;
+        font-size: 16px;
+       margin-left: 50px;
+       margin-right:50px ;
+       padding: 10px;
+       font-family: fantasy;
+    }  
+    i{
+        font-size: 24px;
+    }
+    p:hover{
+        background-color: rgba(255, 0, 0, 0.693);
+        transition: 1s;
+    }
+   
+}
+/* slide4... */
+.slide4{
+    img{
+        width: 100%;
+
+    }
+}
+.slide4-text{
+    background-color: rgba(0, 0, 0, 0.627);
+    position: absolute;
+    top:1700px;
+    right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+}
+.slide4-text1{
+    font-family: sans-serif;
+    line-height: 1.5;
+   
+    h1{
+        text-transform: uppercase;
+    }
+    P{
+        font-size: 14PX;
+    }
+}
+.slide4-bttn1{
+    background-color: red;
+    margin: 8px;
+    padding: 10px;
+
+}
+.slide4-bttn2{
+    background-color: black;
+    margin: 8px;
+    padding: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+
+}
+.flex-box{
+    display:flex;
+    text-align: center;
+    font-family: fantasy;
+    letter-spacing: 3;
+}
+.slide5{
+    display:flex;
+    width: 60%;
+    margin: auto;
+    font-family:sans-serif ;
+    margin-bottom: 30px;
+
+    img{
+        width: 150px;
+        height: 80px;
+        margin: 40px;
+    }
+    h1{
+        text-transform: uppercase;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.671);
+    }
+}
+.slide5-bttn{
+    display: flex;
+
+    p{
+        font-family: fantasy;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        background-color: red;
+        padding: 10px;
+    }
+    p:hover{
+        background-color: rgba(255, 0, 0, 0.562);
+        transition: 1s;
+    }
+}
+/* slide 6... */
+.slide6{
+    img{
+        width:100%
+    
+    }
+
+}
+.slide6-txt{
+    position: absolute;
+    font-family: sans-serif;
+    right:50px;
+    top:3000px;
+    background-color: rgba(0, 0, 0, 0.662);
+    padding: 25px;
+    line-height: 1.5;
+    
+    h1{
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 14px;
+        color:rgba(255, 255, 255, 0.723)
+    }
+  
+}
+.slide6-bttn{
+    font-family: fantasy;
+    font-size: 14px;
+    margin: 20px;
+    margin-right: 250px;
+
+    
+    p{
+        font-family: fantasy;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        background-color: red;
+        padding: 10px;
+    }
+    p:hover{
+        background-color: rgba(255, 0, 0, 0.562);
+        transition: 1s;
+    }
+    
+}
+.slide7{
+    display:flex;
+    width: 60%;
+    margin: auto;
+    font-family:sans-serif ;
+    margin-bottom: 50px;
+    margin-top: 80px;
+
+    img{
+        
+        width: 150px;
+        height: 80px;
+        margin: 40px;
+        padding-top: 40px;
+    }
+    h1{
+        text-transform: uppercase;
+    }
+    p{
+        color: rgba(255, 255, 255, 0.671);
+    }
+    .slide5-bttn{
+        p{
+            color: white;
+        }
+    }
+
+}
+.slide8{
+    display:flex;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 60px;
+
+    img{
+        width: 380px;
+        height:180px;
+       
+    }
+    h2{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    p{
+        margin-top: 0;
+        margin-bottom: 40px;
+        font-size: 14px;
+    }
+}
+.slide9{
+    img{
+        width:100%;
+    }
+}
+.slide9-text{
+    position: absolute;
+    top:4280px;
+    left:30px;
+    background-color: rgba(0, 0, 0, 0.622);
+    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 20px;
+    p{
+        letter-spacing: 1px;
+        color: rgba(255, 255, 255, 0.786);
+    }
+    .slide5-bttn p{
+        color: white;
+        text-transform: uppercase;
+    }
+   
+}
+.slide10{
+    img{
+        width:100%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+}
+.slide10-text{
+    position:absolute;
+    top:4750px;
+    right:30px;
+    background-color: rgba(0, 0, 0, 0.609);
+    padding: 20px;
+    p{
+        letter-spacing: 1;
+        
+    }
+
+}
+footer{
+    font-family: sans-serif;
+    
+}
+.footer1{
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    margin-bottom: 20px;
+    padding: 30px;
+    padding-left:150px;
+    img{
+        width:100px;
+        height: 40px;
+        
+        padding-top: 20px;
+    }
+    ul{
+        display: flex;
+    }
+}
+.icon{
+    display: flex;
+    i{
+        margin-top: 17px;
+    }
+}
+.search-box{
+    
+    display: flex;
+}
+.search-box{
+    form{
+        padding-top: 20px;
+    }
+
+    p{
+        font-family: fantasy;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        background-color: red;
+      
+    }
+    p:hover{
+        background-color: rgba(255, 0, 0, 0.562);
+        transition: 1s;
+    }
+}
+.footer1{
+    input{
+        height: 35px;
+        width: 250px;
+        margin-left: 0;
+      
+    }
+}
+.footer1 ul{
+    p:hover{
+        text-decoration-line: underline;
+
+    }
+}
+.form-icon{
+    padding: 10px;
+    padding-bottom: 13px;
+    margin-right: -5px;
+    
+}
+
+
+.f-bttn{
+    margin-top: 6px;
+   P{
+        padding: 11px;
+        margin-bottom: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    
+
+   }
+   
+  
+}
+.footer ul,li{
+    list-style: none;
+    padding-left:20px;
+    padding-right: 20px;
+    
+   
+}
+
+
+.footer2{
+    display: flex;
+   margin-left:100px;
+   
+
+    .f2-img{
+        width:30px;
+        height:30px;
+        border-radius: 5px;
+    }
+    h5{
+        padding-top: 40px;
+        padding-bottom:10px;
+        font-size: 14px;
+    }
+    p{
+        
+        font-size: 14px;
+        
+        
+    }
+    p:hover{
+        text-decoration-line:underline ;
+        
+        
+    }
+}
+.f2-img{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.coloumn1{
+    margin-left: 50px;
+}
+.coloumn2{
+    margin-left: 50px;
+} 
+.coloumn3{
+    margin-left: 50px;
+}
+.coloumn4{
+    margin-left: 50px;
+}
+.coloumn5{
+    margin-left: 50px;
+}
+
+.f3{
+    display: flex;
+}
+.footer3{
+    margin-left: 150px;
+    padding-bottom: 50px;
+    margin-right: 100px;
+    img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width:80px;
+        padding-right: 2px;
+        
+    }
+   
+    ul{
+        display: flex;
+        font-size: 12px;
+    }
+    li{
+        margin: 0;
+       padding: 5px;
+        font-size: 10px;
+    }
+    li:hover{
+        text-decoration-line: underline;
+    }
+    p{
+        font-size: 12px;
+        margin-bottom: 30px;
+        
+    }
+    
+   
+}
+.f3-1{
+    width: 50%;
+    i{
+        margin-top: 40px;
+        position: absolute;
+    }
+}
+.f3-2{
+    width: 50%;
+}
+
