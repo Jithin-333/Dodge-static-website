@@ -256,11 +256,9 @@ i{
     }
 }
 /* slide 6... */
-.slide6{
-    img{
-        width:100%
+.slide6 img{
+    width: 100%;
     
-    }
 
 }
 .slide6-txt{
